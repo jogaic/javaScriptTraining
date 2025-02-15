@@ -1,0 +1,119 @@
+Semana 1 - Fundamentos do JavaScript
+Exercício 1: Olá, Mundo!
+Contexto:
+Você está criando um site simples para um evento de tecnologia e quer exibir uma mensagem de boas-vindas na página.
+Tarefa:
+Escreva um código em JavaScript que mostre "Olá, Mundo!" no console do navegador.
+
+Exercício 2: Manipulação de Strings
+Contexto:
+Você está criando um site de receitas e quer fazer uma função que, dado o nome da receita, exiba a quantidade de letras e se o nome contém uma palavra-chave como "delicioso".
+Tarefa:
+Crie uma função que receba uma string e:
+Exiba o comprimento da string.
+Verifique se a palavra "delicioso" está presente nela (ignorando maiúsculas e minúsculas).
+
+Exercício 3: Contas Matemáticas
+Contexto:
+Você está desenvolvendo uma calculadora simples que pode somar, subtrair, multiplicar e dividir dois números. O site recebe os números do usuário.
+Tarefa:
+Escreva funções para cada operação matemática (soma, subtração, multiplicação e divisão), que recebam dois números como parâmetros e retornem o resultado. Você pode exibir os resultados no console ou na tela.
+
+Exercício 4: Condicionais
+Contexto:
+Você está criando um site de check-out para um e-commerce e quer verificar se o cliente tem direito a um desconto especial baseado no valor da compra.
+Tarefa:
+Crie uma função que receba o valor da compra e, com base no valor:
+Se for superior a 1000 reais, aplique um desconto de 10%.
+Caso contrário, não aplique desconto.
+A função deve retornar o valor com ou sem o desconto aplicado.
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+Semana 2 - Laços de Repetição e Estruturas Básicas de Dados
+Exercício 5: Laços de Repetição
+Contexto:
+Você está fazendo um aplicativo de contagem regressiva para eventos. Agora, você precisa exibir uma contagem regressiva do número de dias até o evento.
+Tarefa:
+Crie um laço de repetição (como for ou while) que, dado o número de dias até o evento, exiba a contagem regressiva no console. Por exemplo, se faltam 5 dias, o código deve imprimir "5, 4, 3, 2, 1, evento!" na tela.
+
+Exercício 6: Funções
+Contexto:
+Você está criando um serviço de mensagens que permite ao usuário calcular a quantidade de caracteres em uma mensagem, incluindo espaços.
+Tarefa:
+Crie uma função que receba uma string e retorne a quantidade total de caracteres dessa mensagem.
+
+Exercício 7: Listas (Arrays)
+Contexto:
+Você está criando um sistema de gestão de tarefas e quer armazenar a lista de tarefas em uma array. Cada tarefa deve ter um título e uma data de vencimento.
+Tarefa:
+Crie uma lista de tarefas como um array de objetos, onde cada objeto tem titulo e dataDeVencimento. Escreva uma função que exiba todas as tarefas na tela.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+Semana 3 - Conceitos de Objetos, Tuplas e Matrizes
+Exercício 8: Dicionários (Objetos)
+Contexto:
+Você está criando um sistema de cadastro de alunos e quer associar cada aluno a suas notas em diferentes disciplinas.
+Tarefa:
+Crie um dicionário (objeto) onde a chave seja o nome do aluno e o valor seja um outro objeto com as notas das disciplinas. Escreva uma função que receba o nome de um aluno e mostre as notas dele.
+
+Exercício 9: Tuplas (Simulando com Arrays)
+Contexto:
+Você está desenvolvendo um aplicativo de gerenciamento de contatos. Cada contato possui um nome e um número de telefone.
+Tarefa:
+Crie uma lista de tuplas (ou arrays de dois elementos), onde o primeiro elemento é o nome do contato e o segundo elemento é o número de telefone. Escreva uma função que exiba todos os contatos.
+
+Exercício 10: Matrizes (Arrays Multidimensionais)
+Contexto:
+Você está criando uma planilha de notas de alunos e quer armazenar as notas de várias disciplinas para vários alunos.
+Tarefa:
+Crie uma matriz (array multidimensional) onde cada linha representa um aluno e cada coluna representa uma disciplina. Escreva uma função que calcule a média das notas de cada aluno.
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Semana 4 - Programação Orientada a Objetos (POO)
+Exercício 11: Classes
+Contexto:
+Você está criando um sistema para um restaurante e quer modelar os itens do menu usando classes.
+Tarefa:
+Crie uma classe ItemDeMenu que tenha as propriedades nome, preço e categoria. Crie um método exibirItem que mostre essas informações no console. Instancie a classe e mostre o item do menu.
+
+Exercício 12: Herança
+Contexto:
+Você está desenvolvendo um sistema de transporte público e quer modelar diferentes tipos de veículos, como ônibus e metrô.
+Tarefa:
+Crie uma classe base Veiculo com as propriedades marca, modelo e capacidade. Em seguida, crie duas classes filhas Onibus e Metro que herdem da classe Veiculo, mas adicionem propriedades específicas, como pontosDeParada para o ônibus e linhas para o metrô.
+
+Exercício 13: Polimorfismo
+Contexto:
+Agora, você quer que tanto o Onibus quanto o Metro exibam uma descrição customizada quando o método exibirDescricao for chamado.
+Tarefa:
+Implemente o polimorfismo nas classes Onibus e Metro, de modo que ambas as classes sobrescrevam o método exibirDescricao para exibir suas próprias descrições, com base nas propriedades da classe.
+Semana 5 - Encapsulamento e Controle de Fluxo Avançado
+
+Exercício 14: Encapsulamento
+Contexto:
+Você está criando um sistema bancário onde os clientes podem fazer depósitos e retiradas. No entanto, você não quer que o saldo seja acessado diretamente, para garantir que ele só seja manipulado por métodos específicos.
+Tarefa:
+Crie uma classe ContaBancaria com a propriedade saldo, mas torne o saldo privado. Forneça métodos para fazer depósitos e retiradas. Os métodos devem garantir que o saldo nunca seja negativo e que o cliente não possa acessar o saldo diretamente.
+
+Exercício 15: Switch Case
+Contexto:
+Você está criando um aplicativo de controle de tarefas e quer categorizar cada tarefa de acordo com sua prioridade.
+Tarefa:
+Use o switch case para categorizar tarefas com base em sua prioridade. As prioridades podem ser: "alta", "média", e "baixa". A função deve retornar uma mensagem que indica o nível de urgência da tarefa.
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Semana 6 - Projeto Final
+Projeto Final: Sistema de Cadastro de Tarefas (Integração de Conceitos)
+Contexto:
+Agora que você já aprendeu todos os conceitos, é hora de integrar o que você aprendeu em um projeto prático. Você vai criar um sistema simples de cadastro de tarefas, onde o usuário pode adicionar, editar, remover e listar tarefas. Cada tarefa terá um nome e um prazo.
+Tarefa:
+Implemente uma interface de gerenciamento de tarefas usando:
+Classes para modelar tarefas.
+Funções para adicionar e remover tarefas.
+Arrays para armazenar a lista de tarefas.
+Manipulação de strings para validar o nome da tarefa e o prazo.
+Um método para exibir a lista de tarefas.

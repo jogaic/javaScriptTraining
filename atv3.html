@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atv3</title>
+</head>
+<body>
+    <input type="text" id="n1" placeholder="numero 1">
+    <input type="text" id="n2" placeholder="numero 2">
+
+    <button onclick="somar()">Somar</button>
+    <button onclick="sub()">Subtrair</button>
+    <button onclick="mult()">Multiplicar</button>
+    <button onclick="div()">Dividir</button>
+    <br>
+    <input type="text" id="ans">
+
+    <script>
+        
+        let num1 = ""
+        let num2 = ""
+
+
+        function getValues(){
+            num1 = document.getElementById("n1").value;
+            num2 = document.getElementById("n2").value;
+        }
+
+        function somar(){
+            getValues();
+            document.getElementById("ans").value = parseFloat(num1) + parseFloat(num2);
+        }
+
+        function sub(){
+            getValues();
+            document.getElementById("ans").value = parseFloat(num1) - parseFloat(num2);
+        }
+
+        function mult(){
+            getValues();
+            document.getElementById("ans").value = parseFloat(num1) * parseFloat(num2);
+        }
+
+        function div(){
+            getValues();
+            document.getElementById("ans").value = parseFloat(num1) / parseFloat(num2);
+        }
+
+    </script>
+</body>
+</html>

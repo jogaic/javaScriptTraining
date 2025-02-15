@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atv4</title>
+</head>
+<body>
+    <input type="text" id="valor" placeholder="Valor da compra">
+    <br>
+    <button onclick="calcular()">Calcular</button>
+    <p>Valor final:</p>
+    <input type="text" id="preco" placeholder="Preço final">
+
+
+    <script>
+
+        function calcular(){
+            let valor = parseFloat(document.getElementById("valor").value);
+            if( valor > 1000){
+                document.getElementById("preco").value = valor - (valor/10);
+            }else{
+                document.getElementById("preco").value = valor;
+            }
+        }
+
+    </script>
+
+</body>
+</html>
